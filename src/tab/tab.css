@@ -1,19 +1,17 @@
 .tb {
-    font-variant: small-caps;
-    width: 20px;
-    margin-left: 50px;
-    align-content: flex-start;
-    position: absolute;
+  font-variant: small-caps;
+  width: 20px;
+  margin-left: 50px;
+  align-content: flex-start;
+  position: absolute;
 
-    width: 300px;
-    /* border: 3px solid #73ad21; */
-    padding: 10px;
-    margin-top: 80px;
-    margin-left: 290px;
-
-
+  width: 300px;
+  /* border: 3px solid #73ad21; */
+  padding: 10px;
+  margin-top: 80px;
+  margin-left: 290px;
 }
 
 .under {
-    text-decoration-line: underline;
+  text-decoration-line: underline;
 }

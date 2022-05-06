@@ -2,14 +2,14 @@
 import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavbarVts from './navbar/Navbar';
 
 //comments removed
 
 function App() {
   return (
     <div className="App">
-      <h1>Vehicle Tracking System</h1>
-    
+      <NavbarVts/> 
     </div>
   );
 }
