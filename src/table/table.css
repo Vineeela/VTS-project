@@ -1,0 +1,18 @@
+
+
+.tbhead{
+  font-variant: small-caps;
+  width: 800px;
+  margin-left: 200px;
+  align-content:space-around;
+  position:stretch;
+  font-size: 16px;
+  word-break:keep-all;
+  font-stretch: 'Times New Roman';
+  font-stretch:expanded;
+  /* border: 3px solid #73ad21; */
+  padding: 10px;
+  margin-top: 80px;
+  margin-left: 100px;
+  color: rgb(101, 100, 100);
+}

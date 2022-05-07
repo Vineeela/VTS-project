@@ -6,14 +6,16 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
-//import { CgProfile } from "react-icons/cg";
-//import { FiSettings } from "react-icons/fi";
-//   import { IoMdNotificationsOutline } from "react-icons/io";
-//import { FaSearch } from "react-icons/fa";
+import { CgProfile } from "react-icons/cg";
+import { FiSettings } from "react-icons/fi";
+import { IoMdNotificationsOutline } from "react-icons/io";
+import Tabbs from "../tab/Tabs";
 import "./Navbar.css";
+// import './index.html';
 
 const NavbarVts = () => {
   return (
+
     <div className="nave">
       <Navbar collapseOnSelect expand="sm" bg="aliceblue" variant="light">
         <Container>
@@ -36,6 +38,7 @@ const NavbarVts = () => {
                     type="search"
                     placeholder="Search..."
                   />
+              
                 </form>
               </div>
             </Nav>
@@ -43,19 +46,20 @@ const NavbarVts = () => {
             {/* navbar icons */}
             <Nav className="icons">
               <Nav.Link href="#deets">
-                Rohan Sharma
+                Rohan Sharma<CgProfile />
               </Nav.Link>
               <Nav.Link href="#deets">
-
+                <FiSettings />
               </Nav.Link>
               <Nav.Link href="#deets">
                 {" "}
-
+                <IoMdNotificationsOutline />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <Tabbs/>
     </div>
   );
 };

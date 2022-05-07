@@ -27,7 +27,7 @@ form.nosubmit {
 
 input.nosubmit {
   width: 400px;
-  border-radius: 50px;
+  border-radius: 5px;
   display: block;
   padding: 9px 4px 9px 50px;
   background: transparent
