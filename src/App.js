@@ -1,7 +1,7 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavbarVts from './navbar/Navbar';
+// import NavbarVts from './navbar/Navbar';
 import Cards from './cards/cards';
 
 //comments removed
@@ -9,7 +9,7 @@ import Cards from './cards/cards';
 function App() {
   return (
     <div className="App">
-      <NavbarVts/>
+      {/* <NavbarVts/> */}
      <Cards/>
     </div>
   );

@@ -4,7 +4,7 @@ import { Tabs, Tab, TabContent } from "react-bootstrap";
 import "./Tab.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { MDBTableBody, MDBTableHead, MDBTable } from "mdbreact";
-import BasicTable from "../table/table";
+import BasicTable from "../table";
 
 function Tabbs() {
   return (
@@ -35,15 +35,10 @@ function Tabbs() {
   );
 }
 
-
-
 const rootElement = document.getElementById("root");
 ReactDOM.render(<Tabbs />, rootElement);
 
-
-
 export default Tabbs;
-
 
 // import React, { useState } from 'react';
 // import {
