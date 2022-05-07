@@ -1,9 +1,6 @@
 import {
   Container,
-  Form,
-  FormControl,
   Nav,
-  NavDropdown,
 } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
 import { CgProfile } from "react-icons/cg";
@@ -11,7 +8,6 @@ import { FiSettings } from "react-icons/fi";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import Tabbs from "../tab/Tabs";
 import "./Navbar.css";
-// import './index.html';
 
 const NavbarVts = () => {
   return (

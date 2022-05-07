@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Tabs, Tab, TabContent } from "react-bootstrap";
-import "./tab.css";
+import "./Tab.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { MDBTableBody, MDBTableHead, MDBTable } from "mdbreact";
 import BasicTable from "../table/table";
